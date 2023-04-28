@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+}
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    border-radius: 4px;
+    margin: 30px 40% 30px 40%;
+    background-color: rgb(223, 223, 223);
+    padding: 30px;
+}
+#fName{
+    margin: 10px;
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+}
+#num{
+    margin: 10px; 
+    border-radius: 4px;
+    border: none;
+    height: 25px;  
+}
+#date{
+    margin: 10px;
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+}
+#loc{
+    margin: 10px;
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+}
+.radio{
+    margin: 10px;
+    border-radius: 4px;
+}
+#ttl{
+    margin: 10px;
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+}
+.Del{
+    margin: 10px 0px 10px 0px;
+}
+.butn{
+    display: flex;
+    justify-content: space-evenly;
+}
+#submit{
+    width: 80px;
+    height: 40px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+#reset{
+    width: 80px;
+    height: 40px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+/* Items css starts here */
+
+.items{
+    background-color:  rgb(223, 223, 223);
+    margin: 20px 20% 20px 20%;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-family: monospace;
+    
+}
+.items img{
+    border-radius: 4px;
+    height: 100px;
+}
+.titles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.t2{
+   padding-left: 70px;
+}
+.t3{
+    padding-left: 40px;
+}
+.prod{
+    padding: 20px 0px 20px 10px;
+}
+.plus, .minus, .plus2, .minus2, .plus3, .minus3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+} 
+.plus:hover, .minus:hover, .plus2:hover, .minus2:hover, .plus3:hover, .minus3:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+    
+} 
+
